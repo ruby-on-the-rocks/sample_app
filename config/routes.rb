@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   # end
 
   get "/hello_url" => "api/pages#hello_method"
+  get "/peter_url" => "api/pages#peter_method"
 end
